@@ -1,0 +1,11 @@
+.jekyll-metadata
+.sass-cache/
+_builds/
+_cache/
+_projects/
+_site/
+_steps/
+bower_components/
+css/
+js/
+node_modules/

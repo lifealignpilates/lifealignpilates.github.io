@@ -1,0 +1,96 @@
+.standard {
+  font-family: open sans, "Myriad Pro", Arial, Tahoma, Sans-Serif;
+  margin: 25px 0 20px;
+  font-size: 23px;
+  line-height: 36px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #83888d;
+  span {
+    color: map-get($foundation-palette, secondary);
+  }
+}
+
+.standard-gallery {
+  font-family: Josefin Slab;
+  font-size: 27px;
+  letter-spacing: 3px
+}
+
+a, a:hover {
+  color: #4fb1d5;
+}
+
+p, ul, ol {
+  color: map-get($foundation-palette, primary);
+  font-family: open sans, "Myriad Pro", Arial, Tahoma, Sans-Serif;
+  font-size: 14px;
+}
+
+input[type]:not([type="submit"]), textarea, select {
+  color: map-get($foundation-palette, primary);
+}
+
+.color-primary, a.color-primary {
+  color: map-get($foundation-palette, primary);
+}
+
+.color-secondary, a.color-secondary {
+  color: map-get($foundation-palette, secondary);
+}
+
+.x-small {
+  font-size: 11px;
+}
+
+.small {
+  font-size: 16px;
+}
+
+.medium {
+  font-family: "Abel";
+  font-size: 24px;
+}
+
+.large {
+  font-family: "Abel";
+  font-size: 25px;
+}
+
+.x-large {
+  font-family: "Josefin Slab";
+  font-size: 29px;
+}
+
+.xx-large {
+  font-family: "Open Sans";
+  font-size: 40px;
+  font-weight: lighter;
+  letter-spacing: -2px;
+}
+
+.xxx-large {
+  font-size: 65px;
+}
+
+.product-category .orbit-bullets button {
+  text-transform: lowercase;
+}
+
+.product-category .orbit-slide {
+  h4 {
+    font-size: 29px;
+    margin-top: 50px;
+    text-transform: uppercase;
+  }
+  h5 {
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 14px;
+  }
+}

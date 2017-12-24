@@ -1,0 +1,21 @@
+{
+  "name": "norstone-bower",
+  "version": "1.0.0",
+  "description": "Javascript and CSS libraries required for norstoneusa.com.",
+  "license": "MIT",
+  "homepage": "http://www.norstoneusa.com",
+  "dependencies": {
+    "foundation-sites": "~6.3.0",
+    "motion-ui": "~1.2.2",
+    "owl.carousel": "^2.1.6",
+    "owl.carousel2.thumbs": "^0.1.7"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true
+}

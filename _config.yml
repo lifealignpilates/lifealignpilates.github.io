@@ -1,0 +1,16 @@
+title: Life Align Pilates
+description: Pilates by Kendall
+url: http://www.lifealignpilates.com
+author: Kendall Volkman
+markdown: kramdown
+exclude:
+- bower_components
+- node_modules
+- Gemfile*
+- bower.json
+- gulpfile.js
+- package.json
+gems:
+- html-proofer
+jekyll_tidy:
+  compress_html: false
