@@ -1,7 +1,0 @@
-Sitemap: https://www.norstoneusa.com/sitemap.xml
-Sitemap: https://www.norstoneusa.com/images_sitemap.xml
-User-agent: *
-Crawl-delay: 10
-
-# Directories
-Disallow: 

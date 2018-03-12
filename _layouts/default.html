@@ -6,20 +6,13 @@
 
 {% include head.html %}
 
-<body class="no-js{% if page.classes %} {{ page.classes }}{% endif %}">
-  <div class="off-canvas position-right" id="offCanvas" data-off-canvas data-position="right">
-    <ul class="vertical menu">
-      {% include navigation.html %}
-    </ul>
-  </div>
-  <div class="off-canvas-content" data-off-canvas-content>
+<body class="home page-template-default page page-id-6 ttbase-shortcodes  ttbase-shortcodes-responsive wpb-js-composer js-comp-ver-5.0.1 vc_responsive">
+  <div id="page" class="site-wrapper full-width header-transparent-full">
     {% include header.html %}
-    <div id="lifealign-menu" class="menu-centered show-for-large">
-      <ul class="vertical large-horizontal menu">
-        {% include navigation.html %}
-      </ul>
-    </div>
     {{ content }}
+  </div>
+  </div>
+  </div>
   </div>
   {% include footer.html %}
 </body>

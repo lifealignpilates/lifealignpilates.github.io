@@ -1,7 +1,16 @@
 title: Life Align Pilates
-description: Pilates by Kendall
+description: |-
+  LifeAlign Pilates is a studio owned and operated by STOTT PILATES®
+  certified instructor Kendall Volkman. Our focus is aligning your
+  body with your life whether you’re dealing with a degenerative
+  condition, recently completed physical therapy, you’re pre- or
+  post-natal, or just ready to get you to the best you. We offer
+  private sessions as well as group classes weekly utilizing Matwork,
+  Halo® Trainers, Stability Chairs™ and Reformers.
 url: http://www.lifealignpilates.com
 author: Kendall Volkman
+email: kendall.volkman@gmail.com
+phone: (407) 797-1582
 markdown: kramdown
 exclude:
 - bower_components
@@ -10,7 +19,3 @@ exclude:
 - bower.json
 - gulpfile.js
 - package.json
-gems:
-- html-proofer
-jekyll_tidy:
-  compress_html: false
